@@ -3,22 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raleigh Family Guide - Activities</title>
+    <title>Activities | Raleigh Family Guide</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Raleigh Family Guide</h1>
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="activities.html">Activities</a> |
-            <a href="dining.html">Family Dining</a>
-        </nav>
+        <div class="header-container">
+            <h1>Raleigh Family Guide</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="activities.html" class="active">Activities</a></li>
+                    <li><a href="dining.html">Family Dining</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <h2>Things to Do</h2>
-        <p>Information about Marbles Kids Museum and other activities will go here</p>
+    <main class="container">
+        <section class="hero">
+            <h2>Explore Downtown Fun</h2>
+            <p>Raleigh offers incredible hands-on experiences for children to learn, play, and burn off energy.</p>
+        </section>
+
+        <section class="feature-content flex-row">
+            <div class="text-content">
+                <h3>Marbles Kids Museum</h3>
+                <p>Located right in downtown Raleigh, Marbles Kids Museum is designed specifically for children under 10. It is a completely hands-on environment where kids are encouraged to touch, play, and explore.</p>
+                
+                <h3>Museum Highlights</h3>
+                <ul>
+                    <li><strong>Around Town:</strong> A kid-sized version of a city where children can pretend to be mechanics, chefs, or EMTs.</li>
+                    <li><strong>Splash!:</strong> A massive indoor water play area (waterproof aprons provided).</li>
+                    <li><strong>STEM Play:</strong> Interactive exhibits focusing on math, science, and building.</li>
+                    <li><strong>IMAX Theater:</strong> Watch 3D educational films on North Carolina's only 3D-capable giant screen.</li>
+                </ul>
+            </div>
+            <div class="image-content">
+                <img src="images/marbles-museum.jpg" alt="Children playing with interactive exhibits at Marbles Kids Museum">
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <p>&copy; 2026 Derrick Tillery | WEB 110 Local Guide Project</p>
+    </footer>
 </body>
 </html>
